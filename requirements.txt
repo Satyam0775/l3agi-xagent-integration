@@ -1,0 +1,15 @@
+torch>=2.0.0
+transformers>=4.30.0
+# Install OpenBMB XAgent directly from GitHub (not PyPI broken version)
+git+https://github.com/OpenBMB/XAgent.git
+
+langchain>=0.2.0
+python-dotenv
+fastapi
+uvicorn
+requests
+numpy
+json5
+tiktoken
+gradio
+datasets
