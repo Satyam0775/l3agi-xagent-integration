@@ -3,6 +3,9 @@
 This project integrates **OpenBMB’s XAgent** into the **L3AGI Framework**, replacing the existing **LangChain ReAct Agent**.  
 The integration ensures L3AGI can now leverage the more advanced and modular XAgent framework for **multi-agent collaboration**.
 
+Background Information:
+- L3AGI Framework: https://github.com/l3vels/team-of-ai-agents
+- XAgent Framework: https://github.com/OpenBMB/XAgent
 ---
 
 ## 📌 Objective
