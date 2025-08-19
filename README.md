@@ -34,3 +34,56 @@ l3agi-xagent-integration/
 │── report.md # Detailed report of integration
 │── README.md # This file
 
+
+---
+
+## ⚙️ Installation
+
+Clone this repository:
+
+```bash
+git clone https://github.com/Satyam0775/l3agi-xagent-integration.git
+cd l3agi-xagent-integration
+
+Create a virtual environment:
+python -m venv venv
+venv\Scripts\activate   # On Windows
+# or
+source venv/bin/activate   # On Linux/Mac
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+▶️ Running the Test
+
+To verify the integration:
+
+python -m l3agi.test
+
+
+Example Run:
+
+🤖 XAgent Conversation Started! (type 'exit' to quit)
+
+You: hello
+XAgent: hello ... [model-generated response]
+
+🖼️ Screenshot
+
+Example run (see more in docs/screenshots/):
+
+📝 Deliverables
+
+✅ Modified L3AGI framework with XAgent integrated
+
+✅ requirements.txt with updated dependencies
+
+✅ report.md with detailed process, challenges, and testing
+
+✅ Working screenshot(s) included
+
+👨‍💻 Author
+
+Satyam Kumar
+
